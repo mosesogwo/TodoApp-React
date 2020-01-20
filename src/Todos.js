@@ -5,7 +5,7 @@ const Todos = (props) => {
   const todoList = todos.length ? (
     todos.map(todo => {
       return (
-        <div className="collection-item" key={todo.id}>
+        <div className="collection-item #e1bee7 purple lighten-4" key={todo.id}>
           <span onClick={() => {deleteTodo(todo.id)}}>{todo.content}</span>
         </div>
       )

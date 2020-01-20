@@ -4,6 +4,11 @@ A simple todo App built with React. This project is part of the Netninja React a
 
 ![](screenshot.png)
 
+## Usage
+- To add todo item, type in the field below the "add new todo" label and hit enter.
+
+- To delete todo item, click on the todo text.
+
 ## Requirements
 - Node.js
 
@@ -13,4 +18,7 @@ A simple todo App built with React. This project is part of the Netninja React a
 - Run `npm install`
 - Run `npm start` 
 - If all goes well, App will open in your browser.
+
+## Contributor
+- [Moses Ogwo](https://github.com/mosesogwo/)
 

@@ -1,3 +1,4 @@
+import Todos from './Todos'
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -12,7 +13,8 @@ class App extends Component {
   render (){
     return (
       <div className="App">
-
+        <h1 className="center blue-text">Todo's</h1>
+        <Todos todos={this.state.todos}/>
       </div>
     )
   }
